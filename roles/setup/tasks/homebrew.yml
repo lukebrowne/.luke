@@ -1,3 +1,5 @@
+---
+
 - name: ensure homebrew is installed
   stat:
     path: /opt/homebrew/bin/brew

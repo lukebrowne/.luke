@@ -16,3 +16,7 @@
   tags:
     - brew
 
+- name: setup node dev environment
+  import_tasks: node.yml
+  tags:
+    - node

@@ -12,9 +12,12 @@ homebrew:
     - spotify
     - notion
     - hyperkey
+    - tabby
 
   packages:
     - git
+    - nvm
+    - yarn
 
   casks: []
 

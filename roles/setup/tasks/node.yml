@@ -1,0 +1,15 @@
+---
+
+- name: check nvm home directory exists
+  stat:
+    path: $HOME/.nvm
+  register: nvm_check
+
+- name: create nvm home directory
+  when: not nvm_check.stat.exists
+  file:
+    path: $HOME/.nvm
+    state: directory
+
+- name: re-evaluate source
+  shell: source ~/.zshrc
