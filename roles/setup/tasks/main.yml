@@ -11,3 +11,8 @@
   tags:
     - terminal
 
+- name: install homebrew and install
+  import_tasks: homebrew.yml
+  tags:
+    - brew
+

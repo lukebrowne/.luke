@@ -11,8 +11,8 @@
     - .zshrc
 
 - name: set global git name
-  command: git config --global user.name "Luke Browne"
+  shell: git config --global user.name "Luke Browne"
 
 - name: set global git email
-  command: git config --global user.email "git@lukeb.me"
+  shell: git config --global user.email "git@lukeb.me"
 

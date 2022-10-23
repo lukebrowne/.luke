@@ -1,0 +1,20 @@
+---
+
+homebrew:
+  applications:
+    - 1password
+    - raycast
+    - google-chrome
+    - slack
+    - docker
+    - visual-studio-code
+    - iterm2
+    - spotify
+    - notion
+    - hyperkey
+
+  packages:
+    - git
+
+  casks: []
+
