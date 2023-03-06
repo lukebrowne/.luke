@@ -13,11 +13,20 @@ homebrew:
     - notion
     - hyperkey
     - tabby
+    - secretive
+    - jetbrains-toolbox
+    - font-jetbrains-mono
 
   packages:
     - git
     - nvm
     - yarn
+    - terraform
+    - awscli
+    - go
+    - jq
+    - vault
 
-  casks: []
+  casks:
+    - homebrew/cask-fonts
 
